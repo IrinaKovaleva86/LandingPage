@@ -1,0 +1,130 @@
+@media (max-width: 767px) and (min-width: 320px) {
+    .center {
+        padding-left: calc(50% - 280px);
+        padding-right: calc(50% - 280px);
+    }
+
+    .top {
+        gap: 26px;
+        flex-direction: column-reverse;
+    }
+
+    .top_content {
+        height: 798px;
+    }
+
+    .header {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        justify-content: space-between;
+        gap: 106px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .btnSignUp {
+        display: none;
+    }
+    
+    .header_right {
+        justify-content: flex-end;
+        gap: 18px;
+    }
+
+    .header__menu {
+        display: block;
+    }
+
+    .textBlock {
+        margin-top: 0;
+    }
+
+    .textBlock__btn {
+        width: 100%;
+    }
+    .main-screen {
+        display: none;
+    }
+
+    .main-screen1 {
+        display: block;
+        width: 90%;
+        margin-top: 29px;
+    }
+
+
+    .screen__chart {
+        display: none;
+    }
+
+    .features {
+        margin-bottom: 71px;
+    }
+
+    .features_items {
+        flex-direction: column;
+    }
+
+    .features_item_icon {
+        display: flex;
+        align-items: center;
+        gap: 28px;
+    }
+    
+    .features_item {
+        display: flex;
+        width: 246px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 9px;
+    }
+
+    .features__heading {
+        text-align: start;
+    }
+
+    .features__p {
+        text-align: start;
+        margin-bottom: 40px;
+    }
+
+    .features_item_text {
+        text-align: start;
+    }
+
+    .screenshots {
+        gap: 30px;
+    }
+    
+    .screenshots__item {
+        flex-direction: column;
+    }
+
+    .price_heading {
+        text-align: start;
+    }
+    
+    .price_p {
+        text-align: start;
+    }
+
+    .form {
+        padding-top: 34px;
+        padding-bottom: 35px;
+    }
+
+    .signUpForm {
+        display: none;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .footer_menu {
+        display: none;
+    }
+}
